@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BCCD9E31F49B138C0E77994 /* libPods-carpedm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C925A9148B6BA1201B7FF79 /* libPods-carpedm.a */; };
+		C457762A1F9DCC9F00BD0779 /* tourPlacesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C45776291F9DCC9F00BD0779 /* tourPlacesCell.m */; };
+		C4CBE3451F94D3DB008C3756 /* signupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CBE3441F94D3DB008C3756 /* signupVC.m */; };
+		C4CBE34A1F94E446008C3756 /* forgotPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CBE3491F94E446008C3756 /* forgotPassword.m */; };
+		C4CBE3551F94FFBA008C3756 /* loginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CBE3541F94FFBA008C3756 /* loginVC.m */; };
+		C4DE4DFE1F99EA6500F1445B /* fbLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DE4DFD1F99EA6500F1445B /* fbLogin.m */; };
+		C4DE4E011F9A304500F1445B /* homeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DE4E001F9A304500F1445B /* homeVC.m */; };
+		C4DE4E041F9A3ADD00F1445B /* sidebarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DE4E031F9A3ADD00F1445B /* sidebarVC.m */; };
+		C4E6BF9F1F949DDC00F03A95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E6BF9E1F949DDC00F03A95 /* main.m */; };
+		C4E6BFA21F949DDD00F03A95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E6BFA11F949DDD00F03A95 /* AppDelegate.m */; };
+		C4E6BFA51F949DDD00F03A95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E6BFA41F949DDD00F03A95 /* ViewController.m */; };
+		C4E6BFA81F949DDD00F03A95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E6BFA61F949DDD00F03A95 /* Main.storyboard */; };
+		C4E6BFAA1F949DDD00F03A95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E6BFA91F949DDD00F03A95 /* Assets.xcassets */; };
+		C4E6BFAD1F949DDD00F03A95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E6BFAB1F949DDD00F03A95 /* LaunchScreen.storyboard */; };
+		C4E6BFB81F949DDE00F03A95 /* carpedmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E6BFB71F949DDE00F03A95 /* carpedmTests.m */; };
+		C4E6BFC31F949DDE00F03A95 /* carpedmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E6BFC21F949DDE00F03A95 /* carpedmUITests.m */; };
+		C4F3BEFF1F9B773D00351D07 /* tourCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F3BEFE1F9B773D00351D07 /* tourCollectionViewCell.m */; };
+		C4F3BF061F9B985500351D07 /* tourPlacesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F3BF051F9B985500351D07 /* tourPlacesVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4E6BFB41F949DDD00F03A95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E6BF921F949DD400F03A95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E6BF991F949DD500F03A95;
+			remoteInfo = carpedm;
+		};
+		C4E6BFBF1F949DDE00F03A95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E6BF921F949DD400F03A95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E6BF991F949DD500F03A95;
+			remoteInfo = carpedm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C925A9148B6BA1201B7FF79 /* libPods-carpedm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-carpedm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B69F94A493A0EA4BB4FA8AEA /* Pods-carpedm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpedm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-carpedm/Pods-carpedm.debug.xcconfig"; sourceTree = "<group>"; };
+		C45776281F9DCC9F00BD0779 /* tourPlacesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tourPlacesCell.h; sourceTree = "<group>"; };
+		C45776291F9DCC9F00BD0779 /* tourPlacesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tourPlacesCell.m; sourceTree = "<group>"; };
+		C4CBE3431F94D3DA008C3756 /* signupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signupVC.h; sourceTree = "<group>"; };
+		C4CBE3441F94D3DB008C3756 /* signupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = signupVC.m; sourceTree = "<group>"; };
+		C4CBE3481F94E446008C3756 /* forgotPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forgotPassword.h; sourceTree = "<group>"; };
+		C4CBE3491F94E446008C3756 /* forgotPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = forgotPassword.m; sourceTree = "<group>"; };
+		C4CBE3531F94FFBA008C3756 /* loginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginVC.h; sourceTree = "<group>"; };
+		C4CBE3541F94FFBA008C3756 /* loginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginVC.m; sourceTree = "<group>"; };
+		C4DE4DFC1F99EA6500F1445B /* fbLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fbLogin.h; sourceTree = "<group>"; };
+		C4DE4DFD1F99EA6500F1445B /* fbLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fbLogin.m; sourceTree = "<group>"; };
+		C4DE4DFF1F9A304500F1445B /* homeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeVC.h; sourceTree = "<group>"; };
+		C4DE4E001F9A304500F1445B /* homeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeVC.m; sourceTree = "<group>"; };
+		C4DE4E021F9A3ADD00F1445B /* sidebarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sidebarVC.h; sourceTree = "<group>"; };
+		C4DE4E031F9A3ADD00F1445B /* sidebarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sidebarVC.m; sourceTree = "<group>"; };
+		C4E6BF9A1F949DDC00F03A95 /* carpedm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carpedm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E6BF9E1F949DDC00F03A95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4E6BFA01F949DDC00F03A95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4E6BFA11F949DDD00F03A95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4E6BFA31F949DDD00F03A95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4E6BFA41F949DDD00F03A95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4E6BFA71F949DDD00F03A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4E6BFA91F949DDD00F03A95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4E6BFAC1F949DDD00F03A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4E6BFAE1F949DDD00F03A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E6BFB31F949DDD00F03A95 /* carpedmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carpedmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E6BFB71F949DDE00F03A95 /* carpedmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carpedmTests.m; sourceTree = "<group>"; };
+		C4E6BFB91F949DDE00F03A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E6BFBE1F949DDE00F03A95 /* carpedmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carpedmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E6BFC21F949DDE00F03A95 /* carpedmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carpedmUITests.m; sourceTree = "<group>"; };
+		C4E6BFC41F949DDE00F03A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F3BEFD1F9B773D00351D07 /* tourCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tourCollectionViewCell.h; sourceTree = "<group>"; };
+		C4F3BEFE1F9B773D00351D07 /* tourCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tourCollectionViewCell.m; sourceTree = "<group>"; };
+		C4F3BF041F9B985500351D07 /* tourPlacesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tourPlacesVC.h; sourceTree = "<group>"; };
+		C4F3BF051F9B985500351D07 /* tourPlacesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tourPlacesVC.m; sourceTree = "<group>"; };
+		D7BD36C4B6F9F6F6E0A830D6 /* Pods-carpedm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carpedm.release.xcconfig"; path = "Pods/Target Support Files/Pods-carpedm/Pods-carpedm.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E6BF971F949DD500F03A95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BCCD9E31F49B138C0E77994 /* libPods-carpedm.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E6BFB01F949DDD00F03A95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E6BFBB1F949DDE00F03A95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A195BAB0089D26E69F548F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B69F94A493A0EA4BB4FA8AEA /* Pods-carpedm.debug.xcconfig */,
+				D7BD36C4B6F9F6F6E0A830D6 /* Pods-carpedm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4CBE3461F94D3FD008C3756 /* signup */ = {
+			isa = PBXGroup;
+			children = (
+				C4CBE3431F94D3DA008C3756 /* signupVC.h */,
+				C4CBE3441F94D3DB008C3756 /* signupVC.m */,
+			);
+			name = signup;
+			sourceTree = "<group>";
+		};
+		C4CBE3471F94D41F008C3756 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C4E6BFA01F949DDC00F03A95 /* AppDelegate.h */,
+				C4E6BFA11F949DDD00F03A95 /* AppDelegate.m */,
+			);
+			name = delegate;
+			sourceTree = "<group>";
+		};
+		C4CBE34C1F94E6F7008C3756 /* login-register */ = {
+			isa = PBXGroup;
+			children = (
+				C4CBE3461F94D3FD008C3756 /* signup */,
+				C4CBE34D1F94E70E008C3756 /* facebookLogin */,
+				C4CBE34E1F94E719008C3756 /* emailLogin */,
+				C4CBE34F1F94E7EC008C3756 /* forgotPassword */,
+			);
+			name = "login-register";
+			sourceTree = "<group>";
+		};
+		C4CBE34D1F94E70E008C3756 /* facebookLogin */ = {
+			isa = PBXGroup;
+			children = (
+				C4DE4DFC1F99EA6500F1445B /* fbLogin.h */,
+				C4DE4DFD1F99EA6500F1445B /* fbLogin.m */,
+			);
+			name = facebookLogin;
+			sourceTree = "<group>";
+		};
+		C4CBE34E1F94E719008C3756 /* emailLogin */ = {
+			isa = PBXGroup;
+			children = (
+				C4CBE3531F94FFBA008C3756 /* loginVC.h */,
+				C4CBE3541F94FFBA008C3756 /* loginVC.m */,
+			);
+			name = emailLogin;
+			sourceTree = "<group>";
+		};
+		C4CBE34F1F94E7EC008C3756 /* forgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				C4CBE3481F94E446008C3756 /* forgotPassword.h */,
+				C4CBE3491F94E446008C3756 /* forgotPassword.m */,
+			);
+			name = forgotPassword;
+			sourceTree = "<group>";
+		};
+		C4E6BF911F949DD300F03A95 = {
+			isa = PBXGroup;
+			children = (
+				C4E6BF9C1F949DDC00F03A95 /* carpedm */,
+				C4E6BFB61F949DDE00F03A95 /* carpedmTests */,
+				C4E6BFC11F949DDE00F03A95 /* carpedmUITests */,
+				C4E6BF9B1F949DDC00F03A95 /* Products */,
+				0A195BAB0089D26E69F548F2 /* Pods */,
+				D06A2D6C77371AF828EC8B9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4E6BF9B1F949DDC00F03A95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E6BF9A1F949DDC00F03A95 /* carpedm.app */,
+				C4E6BFB31F949DDD00F03A95 /* carpedmTests.xctest */,
+				C4E6BFBE1F949DDE00F03A95 /* carpedmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4E6BF9C1F949DDC00F03A95 /* carpedm */ = {
+			isa = PBXGroup;
+			children = (
+				C4E6BFAB1F949DDD00F03A95 /* LaunchScreen.storyboard */,
+				C4E6BFA61F949DDD00F03A95 /* Main.storyboard */,
+				C4E6BFA91F949DDD00F03A95 /* Assets.xcassets */,
+				C4CBE3471F94D41F008C3756 /* delegate */,
+				C4E6BFA31F949DDD00F03A95 /* ViewController.h */,
+				C4E6BFA41F949DDD00F03A95 /* ViewController.m */,
+				C4CBE34C1F94E6F7008C3756 /* login-register */,
+				C4F3BEFA1F9B317F00351D07 /* sidebar */,
+				C4F3BEF91F9B316000351D07 /* home */,
+				C4F3BF031F9B8F9B00351D07 /* home2 */,
+				C4E6BFAE1F949DDD00F03A95 /* Info.plist */,
+				C4E6BF9D1F949DDC00F03A95 /* Supporting Files */,
+			);
+			path = carpedm;
+			sourceTree = "<group>";
+		};
+		C4E6BF9D1F949DDC00F03A95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4E6BF9E1F949DDC00F03A95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4E6BFB61F949DDE00F03A95 /* carpedmTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4E6BFB71F949DDE00F03A95 /* carpedmTests.m */,
+				C4E6BFB91F949DDE00F03A95 /* Info.plist */,
+			);
+			path = carpedmTests;
+			sourceTree = "<group>";
+		};
+		C4E6BFC11F949DDE00F03A95 /* carpedmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4E6BFC21F949DDE00F03A95 /* carpedmUITests.m */,
+				C4E6BFC41F949DDE00F03A95 /* Info.plist */,
+			);
+			path = carpedmUITests;
+			sourceTree = "<group>";
+		};
+		C4F3BEF91F9B316000351D07 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				C4DE4DFF1F9A304500F1445B /* homeVC.h */,
+				C4DE4E001F9A304500F1445B /* homeVC.m */,
+				C4F3BEFD1F9B773D00351D07 /* tourCollectionViewCell.h */,
+				C4F3BEFE1F9B773D00351D07 /* tourCollectionViewCell.m */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		C4F3BEFA1F9B317F00351D07 /* sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				C4DE4E021F9A3ADD00F1445B /* sidebarVC.h */,
+				C4DE4E031F9A3ADD00F1445B /* sidebarVC.m */,
+			);
+			name = sidebar;
+			sourceTree = "<group>";
+		};
+		C4F3BF031F9B8F9B00351D07 /* home2 */ = {
+			isa = PBXGroup;
+			children = (
+				C4F3BF041F9B985500351D07 /* tourPlacesVC.h */,
+				C4F3BF051F9B985500351D07 /* tourPlacesVC.m */,
+				C45776281F9DCC9F00BD0779 /* tourPlacesCell.h */,
+				C45776291F9DCC9F00BD0779 /* tourPlacesCell.m */,
+			);
+			name = home2;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D06A2D6C77371AF828EC8B9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C925A9148B6BA1201B7FF79 /* libPods-carpedm.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E6BF991F949DD500F03A95 /* carpedm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E6BFC71F949DDE00F03A95 /* Build configuration list for PBXNativeTarget "carpedm" */;
+			buildPhases = (
+				8E4D3D7E374DDFEB60FE2C34 /* [CP] Check Pods Manifest.lock */,
+				C4E6BF961F949DD500F03A95 /* Sources */,
+				C4E6BF971F949DD500F03A95 /* Frameworks */,
+				C4E6BF981F949DD500F03A95 /* Resources */,
+				3268005708E4E19C25B04D8E /* [CP] Embed Pods Frameworks */,
+				2B2C495B0A0238848E69BC88 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = carpedm;
+			productName = carpedm;
+			productReference = C4E6BF9A1F949DDC00F03A95 /* carpedm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4E6BFB21F949DDD00F03A95 /* carpedmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E6BFCA1F949DDE00F03A95 /* Build configuration list for PBXNativeTarget "carpedmTests" */;
+			buildPhases = (
+				C4E6BFAF1F949DDD00F03A95 /* Sources */,
+				C4E6BFB01F949DDD00F03A95 /* Frameworks */,
+				C4E6BFB11F949DDD00F03A95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E6BFB51F949DDD00F03A95 /* PBXTargetDependency */,
+			);
+			name = carpedmTests;
+			productName = carpedmTests;
+			productReference = C4E6BFB31F949DDD00F03A95 /* carpedmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4E6BFBD1F949DDE00F03A95 /* carpedmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E6BFCD1F949DDE00F03A95 /* Build configuration list for PBXNativeTarget "carpedmUITests" */;
+			buildPhases = (
+				C4E6BFBA1F949DDE00F03A95 /* Sources */,
+				C4E6BFBB1F949DDE00F03A95 /* Frameworks */,
+				C4E6BFBC1F949DDE00F03A95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E6BFC01F949DDE00F03A95 /* PBXTargetDependency */,
+			);
+			name = carpedmUITests;
+			productName = carpedmUITests;
+			productReference = C4E6BFBE1F949DDE00F03A95 /* carpedmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E6BF921F949DD400F03A95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Smitiv;
+				TargetAttributes = {
+					C4E6BF991F949DD500F03A95 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C4E6BFB21F949DDD00F03A95 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4E6BF991F949DD500F03A95;
+					};
+					C4E6BFBD1F949DDE00F03A95 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4E6BF991F949DD500F03A95;
+					};
+				};
+			};
+			buildConfigurationList = C4E6BF951F949DD400F03A95 /* Build configuration list for PBXProject "carpedm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4E6BF911F949DD300F03A95;
+			productRefGroup = C4E6BF9B1F949DDC00F03A95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E6BF991F949DD500F03A95 /* carpedm */,
+				C4E6BFB21F949DDD00F03A95 /* carpedmTests */,
+				C4E6BFBD1F949DDE00F03A95 /* carpedmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4E6BF981F949DD500F03A95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E6BFAD1F949DDD00F03A95 /* LaunchScreen.storyboard in Resources */,
+				C4E6BFAA1F949DDD00F03A95 /* Assets.xcassets in Resources */,
+				C4E6BFA81F949DDD00F03A95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E6BFB11F949DDD00F03A95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E6BFBC1F949DDE00F03A95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B2C495B0A0238848E69BC88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-carpedm/Pods-carpedm-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-carpedm/Pods-carpedm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3268005708E4E19C25B04D8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-carpedm/Pods-carpedm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E4D3D7E374DDFEB60FE2C34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-carpedm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E6BF961F949DD500F03A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CBE3451F94D3DB008C3756 /* signupVC.m in Sources */,
+				C4CBE34A1F94E446008C3756 /* forgotPassword.m in Sources */,
+				C4DE4DFE1F99EA6500F1445B /* fbLogin.m in Sources */,
+				C4CBE3551F94FFBA008C3756 /* loginVC.m in Sources */,
+				C4DE4E041F9A3ADD00F1445B /* sidebarVC.m in Sources */,
+				C4E6BFA51F949DDD00F03A95 /* ViewController.m in Sources */,
+				C4F3BEFF1F9B773D00351D07 /* tourCollectionViewCell.m in Sources */,
+				C4F3BF061F9B985500351D07 /* tourPlacesVC.m in Sources */,
+				C4DE4E011F9A304500F1445B /* homeVC.m in Sources */,
+				C457762A1F9DCC9F00BD0779 /* tourPlacesCell.m in Sources */,
+				C4E6BFA21F949DDD00F03A95 /* AppDelegate.m in Sources */,
+				C4E6BF9F1F949DDC00F03A95 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E6BFAF1F949DDD00F03A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E6BFB81F949DDE00F03A95 /* carpedmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E6BFBA1F949DDE00F03A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E6BFC31F949DDE00F03A95 /* carpedmUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4E6BFB51F949DDD00F03A95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E6BF991F949DD500F03A95 /* carpedm */;
+			targetProxy = C4E6BFB41F949DDD00F03A95 /* PBXContainerItemProxy */;
+		};
+		C4E6BFC01F949DDE00F03A95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E6BF991F949DD500F03A95 /* carpedm */;
+			targetProxy = C4E6BFBF1F949DDE00F03A95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4E6BFA61F949DDD00F03A95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E6BFA71F949DDD00F03A95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4E6BFAB1F949DDD00F03A95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E6BFAC1F949DDD00F03A95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4E6BFC51F949DDE00F03A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4E6BFC61F949DDE00F03A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4E6BFC81F949DDE00F03A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B69F94A493A0EA4BB4FA8AEA /* Pods-carpedm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = carpedm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Raja.carpedm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4E6BFC91F949DDE00F03A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7BD36C4B6F9F6F6E0A830D6 /* Pods-carpedm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = carpedm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Raja.carpedm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4E6BFCB1F949DDE00F03A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = carpedmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Raja.carpedmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/carpedm.app/carpedm";
+			};
+			name = Debug;
+		};
+		C4E6BFCC1F949DDE00F03A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = carpedmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Raja.carpedmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/carpedm.app/carpedm";
+			};
+			name = Release;
+		};
+		C4E6BFCE1F949DDE00F03A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = carpedmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Raja.carpedmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = carpedm;
+			};
+			name = Debug;
+		};
+		C4E6BFCF1F949DDE00F03A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = carpedmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Raja.carpedmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = carpedm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E6BF951F949DD400F03A95 /* Build configuration list for PBXProject "carpedm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E6BFC51F949DDE00F03A95 /* Debug */,
+				C4E6BFC61F949DDE00F03A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E6BFC71F949DDE00F03A95 /* Build configuration list for PBXNativeTarget "carpedm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E6BFC81F949DDE00F03A95 /* Debug */,
+				C4E6BFC91F949DDE00F03A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E6BFCA1F949DDE00F03A95 /* Build configuration list for PBXNativeTarget "carpedmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E6BFCB1F949DDE00F03A95 /* Debug */,
+				C4E6BFCC1F949DDE00F03A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E6BFCD1F949DDE00F03A95 /* Build configuration list for PBXNativeTarget "carpedmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E6BFCE1F949DDE00F03A95 /* Debug */,
+				C4E6BFCF1F949DDE00F03A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E6BF921F949DD400F03A95 /* Project object */;
+}
